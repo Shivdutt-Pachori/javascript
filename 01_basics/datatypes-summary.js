@@ -39,3 +39,26 @@ const myFunction = function(){
 //        Function  =>  function
 //        Object  =>  object
 
+//************MEMORY*****************\\
+//stack(primitive) ,Heap(non - primitive)
+
+let myName = "don";
+let nameMine = myName;
+nameMine = "nod"
+
+console.log(myName)
+console.log(nameMine)
+
+
+
+
+let userOne = {
+    email: "mine@yours.com",
+    upi: "money@sdf",
+}
+console.log(userOne.email)
+
+let userTwo = userOne;
+userTwo.email = "yours@mine.com"
+
+console.log(userOne.email)

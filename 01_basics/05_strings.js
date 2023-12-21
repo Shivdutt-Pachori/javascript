@@ -5,7 +5,7 @@ const age = 0
 
 console.log(`my name is not ${name} and my age is not ${age}`)
 
-const naam = new String("Nirdo-sh");
+const naam = new String("Nirdo-sh-hae");
 console.log(naam[0]);
 console.log(naam.__proto__);
 
@@ -19,3 +19,12 @@ console.log(newString);
 
 const anotherString = naam.slice(-7,4);
 console.log(anotherString);
+
+const newStringOne = "   maee   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://naam.com/naam%20aagekanaam"
+console.log(url.replace('%20','-'));
+console.log(url.includes('naam.'));
+console.log(naam.split('-'));//gives array as a output

@@ -22,7 +22,7 @@ console.log(realAnotherArray);
 
 console.log(Array.isArray("Spiderman"));
 console.log(Array.from("Spiderman"));
-console.log(Array.from({name: "Spiderman"}));//interesting (we need to specify that we want an array of keys or values if we do not specify anything by default it will return empty array)
+console.log(Array.from({name: "Spiderman"}));//intresting (we need to specify that we want an array of keys or values if we do not specify anything by default it will return empty array)
 
 const score1 = 100;
 const score2 = 200;

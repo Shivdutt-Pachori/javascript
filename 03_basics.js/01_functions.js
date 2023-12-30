@@ -37,3 +37,28 @@ function loginUserMessage(username){
 }
 console.log(loginUserMessage("Spiderman"))
 console.log(loginUserMessage())
+
+// what if we do not know number of parameters beforehand
+function calCartPrice (...num1){
+    return num1
+}
+console.log(calCartPrice(200,300,400));
+
+//how to use and handle objects in function
+
+const user = {
+    username: "spiderman",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+handleObject(user);
+
+const myNewArray = [200, 400, 500, 100];
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+console.log(returnSecondValue(myNewArray));
